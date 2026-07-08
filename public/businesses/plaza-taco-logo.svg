@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <defs><linearGradient id="gq5d0xa" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#78350f"/>
+    <stop offset="100%" stop-color="#d97706"/>
+  </linearGradient></defs>
+  <rect width="160" height="160" rx="28" fill="url(#gq5d0xa)"/>
+  <text x="80" y="98" font-family="Arial, sans-serif" font-size="56" font-weight="700" fill="white" text-anchor="middle">PT</text>
+</svg>

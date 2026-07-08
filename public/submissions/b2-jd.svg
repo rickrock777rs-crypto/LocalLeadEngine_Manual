@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs><linearGradient id="gfdyoxl" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#082f49"/>
+    <stop offset="100%" stop-color="#0284c7"/>
+  </linearGradient></defs>
+  <rect width="800" height="600" fill="url(#gfdyoxl)"/>
+  <rect x="40" y="40" width="720" height="520" rx="24" fill="white" fill-opacity="0.08" stroke="white" stroke-opacity="0.25" stroke-width="2"/>
+  <text x="80" y="300" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="white" width="640">
+    <tspan x="80" dy="0">Built Different. Built Local.</tspan>
+  </text>
+  <rect x="80" y="460" width="341" height="56" rx="28" fill="white"/>
+  <text x="250.5" y="496" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#111827" text-anchor="middle">Stop in this week</text>
+</svg>
