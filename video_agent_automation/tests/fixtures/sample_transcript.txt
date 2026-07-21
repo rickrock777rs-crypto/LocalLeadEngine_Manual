@@ -1,0 +1,13 @@
+Hey everyone, welcome back. Today I'm going to show you how to automatically post new YouTube uploads to your Discord server using n8n.
+
+First, open n8n and create a new workflow. Add a trigger node — search for "YouTube" and pick the "On new video" trigger. You'll need to connect your YouTube account here, so click "Create new credential" and go through the Google OAuth login.
+
+Once that's connected, set the channel ID you want to watch. I'm using my own channel for this example, you'd swap in yours.
+
+Next, add an action node — search for Discord and choose "Send Message." Same deal, you'll need to authenticate with a Discord webhook or bot token, whichever you've already got set up.
+
+For the message, just map the video title and URL from the trigger node into the text field. I usually format mine as "New video is up: {{title}} - {{url}}" but honestly format it however you like, that part's up to you.
+
+Then hit save, toggle the workflow to active, and you're done. Every time you publish a new video it'll ping your Discord automatically.
+
+One more thing — if you want it to only post for certain video categories, there's a filter node you can add before the Discord step, but I won't go into that today.
