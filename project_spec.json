@@ -1,0 +1,60 @@
+{
+  "project_name": "LocalLeadEngine",
+  "description": "Automated lead generation and routing platform for local service businesses.",
+  "primary_niche": "Water Damage Restoration",
+  "business_model": {
+    "lead_price_usd": 120,
+    "revenue_targets": {
+      "5k_month": "42 leads",
+      "10k_month": "84 leads",
+      "20k_month": "167 leads"
+    }
+  },
+  "system_architecture": {
+    "frontend": {
+      "type": "Landing Page",
+      "framework": "Static HTML + Tailwind CSS",
+      "purpose": "Capture homeowner emergency service requests"
+    },
+    "backend": {
+      "type": "Serverless API",
+      "framework": "FastAPI",
+      "functions": [
+        "receive lead submissions",
+        "validate data",
+        "store lead",
+        "trigger automation workflow"
+      ]
+    },
+    "database": {
+      "type": "PostgreSQL",
+      "tables": [
+        "leads",
+        "business_clients",
+        "lead_distribution"
+      ]
+    },
+    "automation": {
+      "tool": "Zapier-compatible webhook",
+      "workflow": [
+        "lead submitted",
+        "send SMS notification to contractor",
+        "email contractor",
+        "log lead in CRM"
+      ]
+    }
+  },
+  "lead_fields": [
+    "full_name",
+    "phone_number",
+    "email",
+    "city",
+    "service_needed",
+    "urgency_level"
+  ],
+  "traffic_sources": [
+    "Google Ads",
+    "Local SEO landing pages",
+    "Short-form social media content"
+  ]
+}
